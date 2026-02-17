@@ -172,27 +172,68 @@ def load_metrics():
     """Load model metrics."""
     models_dir = Path(__file__).parent.parent / "models"
     
-    if not models_dir.exists():
-        return None, None
-    
-    bundles = [d for d in models_dir.iterdir() if d.is_dir() and d.name.startswith("waste_management_models")]
-    if not bundles:
-        return None, None
-    
-    latest_bundle = max(bundles, key=lambda x: x.stat().st_mtime)
-    
     fill_metrics = None
     waste_metrics = None
     
-    fill_metrics_path = latest_bundle / "fill_level_metrics.json"
-    waste_metrics_path = latest_bundle / "waste_type_metrics.json"
+    # Try to load from files first
+    if models_dir.exists():
+        bundles = [d for d in models_dir.iterdir() if d.is_dir() and d.name.startswith("waste_management_models")]
+        if bundles:
+            latest_bundle = max(bundles, key=lambda x: x.stat().st_mtime)
+            
+            fill_metrics_path = latest_bundle / "fill_level_metrics.json"
+            waste_metrics_path = latest_bundle / "waste_type_metrics.json"
+            
+            if fill_metrics_path.exists():
+                with open(fill_metrics_path) as f:
+                    fill_metrics = json.load(f)
+            if waste_metrics_path.exists():
+                with open(waste_metrics_path) as f:
+                    waste_metrics = json.load(f)
     
-    if fill_metrics_path.exists():
-        with open(fill_metrics_path) as f:
-            fill_metrics = json.load(f)
-    if waste_metrics_path.exists():
-        with open(waste_metrics_path) as f:
-            waste_metrics = json.load(f)
+    # Use hardcoded metrics if files not found (for cloud deployment)
+    if fill_metrics is None:
+        fill_metrics = {
+            'model_name': 'xgboost_fill_level',
+            'accuracy': 0.8659,
+            'f1_macro': 0.8099,
+            'f1_weighted': 0.8659,
+            'cv_mean': 0.8033,
+            'cv_std': 0.0051,
+            'feature_importances': {
+                'fill_rate_7day_avg': 0.2902,
+                'days_since_last_collection': 0.1749,
+                'location_type': 0.1690,
+                'is_festival_period': 0.0922,
+                'month': 0.0494,
+                'is_weekend': 0.0441,
+                'prev_fill_level': 0.0422,
+                'rainfall_mm': 0.0285,
+                'capacity_liters': 0.0280,
+                'is_holiday': 0.0249
+            }
+        }
+    
+    if waste_metrics is None:
+        waste_metrics = {
+            'model_name': 'random_forest_waste_type',
+            'accuracy': 0.7441,
+            'f1_macro': 0.5702,
+            'f1_weighted': 0.7441,
+            'cv_mean': 0.5686,
+            'cv_std': 0.0014,
+            'feature_importances': {
+                'waste_weight_kg': 0.4028,
+                'fill_level_percent': 0.1937,
+                'fill_rate_per_day': 0.1182,
+                'nearby_population': 0.0880,
+                'capacity_liters': 0.0555,
+                'month': 0.0522,
+                'district': 0.0497,
+                'location_type': 0.0358,
+                'is_festival_period': 0.0041
+            }
+        }
     
     return fill_metrics, waste_metrics
 
@@ -684,7 +725,7 @@ def main():
         st.markdown("### 🚨 Collection Priority Queue")
         st.markdown("Bins ranked by urgency for collection scheduling.")
         
-        if df is not None and fill_model is not None:
+        if df is not None:
             # Sample recent data and calculate priorities
             sample_df = df.sample(min(100, len(df)), random_state=42).copy()
             
@@ -759,7 +800,7 @@ def main():
                 "text/csv"
             )
         else:
-            st.warning("Load data and models to view priority queue.")
+            st.warning("No data available. Please check data files.")
     
     # ==========================================================================
     # TAB 4: MODEL PERFORMANCE
