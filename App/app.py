@@ -19,22 +19,8 @@ import joblib
 from datetime import datetime, timedelta
 import sys
 
-import os
-import sys
-
-# Ensure project root is on PYTHONPATH so `src` can be imported
-PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if PROJECT_ROOT not in sys.path:
-    sys.path.insert(0, PROJECT_ROOT)
-
-# Import the class from where it actually lives
-from src.preprocessing import DataPreprocessor  # adjust module if different
-
-# Make it visible as __main__.DataPreprocessor for pickle/joblib
-import __main__
-__main__.DataPreprocessor = DataPreprocessor
-
-
+# Add src to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
 
 # =============================================================================
 # PAGE CONFIG
@@ -119,9 +105,15 @@ st.markdown("""
 @st.cache_data
 def load_data():
     """Load the features dataset."""
+    # Try full file first, then sample
     data_path = Path(__file__).parent.parent / "data" / "processed" / "features.csv"
+    sample_path = Path(__file__).parent.parent / "data" / "processed" / "features_sample.csv"
+    
     if data_path.exists():
         df = pd.read_csv(data_path)
+        return df
+    elif sample_path.exists():
+        df = pd.read_csv(sample_path)
         return df
     return None
 
@@ -154,20 +146,24 @@ def load_models():
     preprocessor = None
     config = None
     
-    fill_model_path = latest_bundle / "fill_level_model.joblib"
-    waste_model_path = latest_bundle / "waste_type_model.joblib"
-    preprocessor_path = latest_bundle / "preprocessor.joblib"
-    config_path = latest_bundle / "feature_config.json"
-    
-    if fill_model_path.exists():
-        fill_model = joblib.load(fill_model_path)
-    if waste_model_path.exists():
-        waste_model = joblib.load(waste_model_path)
-    if preprocessor_path.exists():
-        preprocessor = joblib.load(preprocessor_path)
-    if config_path.exists():
-        with open(config_path) as f:
-            config = json.load(f)
+    try:
+        fill_model_path = latest_bundle / "fill_level_model.joblib"
+        waste_model_path = latest_bundle / "waste_type_model.joblib"
+        preprocessor_path = latest_bundle / "preprocessor.joblib"
+        config_path = latest_bundle / "feature_config.json"
+        
+        if fill_model_path.exists():
+            fill_model = joblib.load(fill_model_path)
+        if waste_model_path.exists():
+            waste_model = joblib.load(waste_model_path)
+        if preprocessor_path.exists():
+            preprocessor = joblib.load(preprocessor_path)
+        if config_path.exists():
+            with open(config_path) as f:
+                config = json.load(f)
+    except Exception as e:
+        st.warning(f"Could not load models: {e}")
+        return None, None, None, None
     
     return fill_model, waste_model, preprocessor, config
 
