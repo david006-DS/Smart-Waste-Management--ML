@@ -1,0 +1,47 @@
+pandas
+scipy
+scikit-learn
+xgboost
+imbalanced-learn
+matplotlib
+seaborn
+plotly
+jupyterlab
+ipywidgets
+notebook
+streamlit
+flask
+flask-cors
+pydantic
+great-expectations
+joblib
+python-dotenv
+tqdm
+click
+pytest
+pytest
+black
+flake8
+isort
+mkdocs
+mkdocs-material
+streamlit
+
+# Core Data Science
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.5.0
+
+# Visualization
+matplotlib>=3.4.0
+plotly>=5.0.0
+
+# Web Application
+streamlit>=1.32.0
+
+# Model Serialization
+joblib>=1.1.0

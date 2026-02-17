@@ -1,0 +1,501 @@
+bin_id,location_type,district,capacity_liters,bin_material,has_lid,nearby_population,distance_to_depot_km,road_accessibility,installation_date,latitude,longitude
+BIN_00001,residential,East Legon,120,plastic,1,194,3.9,easy,2015-05-11,5.523294,0.04007
+BIN_00002,institutional,Kasoa,240,metal,1,1561,8.08,easy,2016-04-19,5.617896,-0.233967
+BIN_00003,residential,Kaneshie,120,plastic,1,366,3.96,easy,2016-10-08,5.547284,-0.258533
+BIN_00004,hospitality,Spintex,660,metal,1,261,5.17,moderate,2021-12-31,5.653311,-0.22279
+BIN_00005,residential,Tema,120,plastic,1,382,4.66,difficult,2019-04-29,5.67032,0.015293
+BIN_00006,commercial,Kaneshie,240,plastic,1,552,2.94,easy,2017-12-12,5.61388,0.038534
+BIN_00007,market,East Legon,660,plastic,1,2077,9.95,easy,2019-02-04,5.522253,-0.214382
+BIN_00008,industrial,Madina,1100,metal,1,94,10.77,moderate,2016-05-17,5.569757,-0.17269
+BIN_00009,industrial,La,660,concrete,1,292,10.64,moderate,2016-05-17,5.643355,-0.117047
+BIN_00010,commercial,Kaneshie,240,plastic,1,1099,3.38,moderate,2020-04-07,5.665211,-0.197734
+BIN_00011,commercial,Achimota,240,metal,1,755,18.57,moderate,2019-05-17,5.621345,0.007582
+BIN_00012,institutional,Spintex,240,metal,1,419,6.21,difficult,2018-11-09,5.55647,-0.139054
+BIN_00013,institutional,Osu,240,plastic,1,1072,4.46,easy,2016-10-25,5.670866,-0.173343
+BIN_00014,commercial,Osu,660,metal,1,397,4.48,moderate,2019-06-25,5.565574,-0.267827
+BIN_00015,market,Tema,1100,metal,1,2503,9.13,moderate,2019-08-23,5.608463,-0.08441
+BIN_00016,residential,La,120,plastic,1,352,8.7,moderate,2020-12-31,5.653648,-0.174143
+BIN_00017,residential,East Legon,240,plastic,1,269,10.29,easy,2019-10-01,5.547899,-0.051991
+BIN_00018,residential,Tema,240,plastic,0,220,7.87,moderate,2015-09-20,5.625597,-0.010317
+BIN_00019,commercial,Spintex,240,metal,0,646,10.94,easy,2019-08-10,5.636153,0.016046
+BIN_00020,institutional,La,660,plastic,0,1613,9.02,moderate,2019-02-05,5.62616,-0.27833
+BIN_00021,residential,Tema,120,plastic,0,204,3.16,easy,2017-03-26,5.639439,-0.065621
+BIN_00022,institutional,Accra Central,240,plastic,1,1614,2.25,moderate,2021-03-27,5.582896,0.014375
+BIN_00023,market,Tema,660,concrete,0,3192,5.07,easy,2016-06-30,5.642969,-0.265611
+BIN_00024,hospitality,Airport Residential,660,plastic,1,77,11.35,easy,2015-06-30,5.611567,0.043509
+BIN_00025,residential,East Legon,120,metal,1,117,8.01,difficult,2016-07-23,5.668803,-0.256763
+BIN_00026,residential,Kaneshie,240,plastic,1,541,4.7,moderate,2015-09-03,5.577519,-0.183115
+BIN_00027,institutional,Madina,240,plastic,1,251,8.65,easy,2016-02-04,5.528123,0.012584
+BIN_00028,residential,Tema,120,plastic,1,343,7.88,easy,2021-06-19,5.657665,-0.197417
+BIN_00029,residential,Kaneshie,120,plastic,1,489,2.08,moderate,2018-05-04,5.654724,-0.215855
+BIN_00030,commercial,Madina,660,concrete,0,735,5.91,moderate,2017-04-10,5.589363,-0.034466
+BIN_00031,residential,Dansoman,240,metal,0,316,4.56,easy,2018-01-24,5.607876,-0.044183
+BIN_00032,market,Ashaiman,1100,concrete,0,2383,9.57,easy,2015-06-03,5.576956,-0.029911
+BIN_00033,residential,Airport Residential,120,plastic,1,344,4.58,easy,2021-11-26,5.598659,-0.123754
+BIN_00034,residential,Airport Residential,120,plastic,0,318,5.35,easy,2021-10-25,5.600166,-0.102005
+BIN_00035,market,La,1100,plastic,0,2091,10.21,moderate,2021-08-24,5.54056,-0.012303
+BIN_00036,institutional,Spintex,240,metal,0,552,3.62,easy,2021-12-21,5.618921,-0.168937
+BIN_00037,market,East Legon,1100,metal,0,843,4.06,easy,2019-02-25,5.669864,-0.267069
+BIN_00038,commercial,East Legon,240,plastic,1,591,11.91,easy,2017-09-04,5.560003,-0.08842
+BIN_00039,institutional,Ashaiman,240,plastic,1,943,6.4,moderate,2016-08-18,5.652233,-0.174384
+BIN_00040,institutional,Accra Central,240,metal,1,1006,5.78,moderate,2017-04-30,5.598884,-0.252516
+BIN_00041,residential,Spintex,120,plastic,0,416,10.11,easy,2017-12-01,5.67588,0.048657
+BIN_00042,residential,Madina,240,plastic,1,188,9.85,moderate,2019-03-23,5.588175,-0.20655
+BIN_00043,residential,Achimota,240,plastic,1,494,12.49,easy,2016-05-14,5.55787,0.019539
+BIN_00044,commercial,Teshie-Nungua,660,metal,1,776,6.82,difficult,2015-02-08,5.589512,-0.196285
+BIN_00045,commercial,Airport Residential,240,plastic,1,503,9.71,easy,2015-07-09,5.584036,-0.122354
+BIN_00046,residential,Accra Central,120,metal,1,585,1.22,difficult,2015-07-22,5.667059,-0.196513
+BIN_00047,market,Osu,1100,concrete,0,1636,4.14,moderate,2016-04-15,5.527271,-0.187282
+BIN_00048,hospitality,La,240,plastic,1,218,8.82,easy,2016-06-23,5.532438,0.04155
+BIN_00049,hospitality,Kasoa,240,plastic,1,626,11.25,easy,2016-01-25,5.671968,-0.040513
+BIN_00050,market,Tema,660,plastic,0,1094,6.7,moderate,2021-01-02,5.677964,-0.230362
+BIN_00051,commercial,Kaneshie,660,plastic,1,300,1.18,easy,2016-02-09,5.52902,0.005358
+BIN_00052,institutional,Kaneshie,660,plastic,1,1808,4.79,easy,2021-11-09,5.540666,0.034837
+BIN_00053,market,Airport Residential,1100,concrete,1,820,3.2,easy,2016-03-13,5.643571,-0.108346
+BIN_00054,institutional,Kasoa,660,metal,1,1514,13.76,easy,2018-06-06,5.61925,-0.047654
+BIN_00055,residential,Kasoa,120,metal,0,425,14.66,easy,2020-07-10,5.575721,-0.110383
+BIN_00056,industrial,Spintex,660,concrete,1,249,7.13,moderate,2020-02-19,5.593462,0.043411
+BIN_00057,commercial,East Legon,240,plastic,1,440,7.14,easy,2020-06-17,5.542212,-0.068511
+BIN_00058,residential,La,120,metal,1,489,8.42,easy,2017-10-25,5.575213,-0.165286
+BIN_00059,residential,Kasoa,120,plastic,1,294,14.04,moderate,2021-04-15,5.596983,-0.053031
+BIN_00060,commercial,Achimota,1100,metal,1,844,16.98,easy,2015-10-30,5.579276,-0.120107
+BIN_00061,market,Adenta,1100,concrete,1,869,9.6,moderate,2017-07-07,5.601868,-0.104403
+BIN_00062,residential,Dansoman,120,plastic,1,473,4.64,moderate,2018-07-20,5.553832,-0.171926
+BIN_00063,residential,Accra Central,120,plastic,1,431,3.4,moderate,2019-02-02,5.613895,-0.034005
+BIN_00064,commercial,Madina,660,metal,0,823,5.2,easy,2020-06-12,5.616924,-0.201715
+BIN_00065,residential,Kasoa,120,plastic,0,162,17.67,easy,2018-03-06,5.532837,-0.106911
+BIN_00066,commercial,Teshie-Nungua,1100,plastic,1,1120,3.05,difficult,2019-06-18,5.547342,-0.059348
+BIN_00067,hospitality,Kaneshie,660,metal,0,292,5.84,moderate,2016-12-24,5.601218,-0.200005
+BIN_00068,residential,Dansoman,240,plastic,1,567,5.89,moderate,2017-06-20,5.573857,-0.235643
+BIN_00069,residential,Spintex,120,plastic,1,155,3.02,easy,2020-04-27,5.616976,-0.017884
+BIN_00070,residential,Ashaiman,240,metal,1,588,11.45,easy,2019-04-20,5.668232,-0.041873
+BIN_00071,residential,East Legon,120,plastic,1,115,4.48,moderate,2015-03-19,5.60369,-0.161586
+BIN_00072,institutional,Osu,660,metal,1,1819,4.12,moderate,2016-07-28,5.600435,-0.20337
+BIN_00073,institutional,Adenta,660,metal,1,1177,13.18,easy,2018-04-17,5.573585,-0.23404
+BIN_00074,industrial,East Legon,1100,concrete,1,209,9.77,moderate,2017-08-08,5.5429,-0.2125
+BIN_00075,industrial,Ashaiman,1100,metal,1,116,10.62,easy,2020-08-24,5.647567,-0.230527
+BIN_00076,residential,Spintex,240,plastic,1,326,9.45,moderate,2019-08-11,5.549056,0.019789
+BIN_00077,commercial,La,660,metal,1,929,4.25,easy,2019-06-28,5.65954,0.027599
+BIN_00078,commercial,Teshie-Nungua,660,metal,1,980,6.37,easy,2015-02-20,5.637831,0.028341
+BIN_00079,hospitality,Adenta,240,plastic,1,230,18.05,easy,2016-07-20,5.556383,-0.079395
+BIN_00080,residential,Ashaiman,120,metal,1,350,6.58,moderate,2020-10-23,5.667674,-0.126319
+BIN_00081,commercial,Achimota,660,metal,1,312,10.12,easy,2016-12-10,5.525421,-0.177214
+BIN_00082,industrial,Achimota,1100,metal,1,94,19.53,easy,2015-12-08,5.533656,0.048969
+BIN_00083,commercial,Accra Central,660,metal,1,1007,2.75,easy,2016-03-04,5.580436,-0.003934
+BIN_00084,commercial,Accra Central,660,metal,1,663,3.0,moderate,2017-04-10,5.536477,-0.16966
+BIN_00085,residential,Madina,120,plastic,0,316,3.23,easy,2018-04-16,5.658719,-0.145365
+BIN_00086,commercial,Madina,240,plastic,1,339,10.2,easy,2018-07-11,5.535911,-0.199753
+BIN_00087,industrial,La,1100,plastic,0,85,6.66,easy,2020-06-24,5.52208,-0.251782
+BIN_00088,residential,Madina,120,metal,0,457,11.2,moderate,2017-01-15,5.652017,-0.16019
+BIN_00089,residential,Teshie-Nungua,120,plastic,1,329,5.65,difficult,2018-10-19,5.542418,0.006594
+BIN_00090,commercial,Airport Residential,660,metal,1,426,9.68,easy,2018-07-28,5.561262,-0.234012
+BIN_00091,institutional,Teshie-Nungua,240,metal,1,1715,10.4,moderate,2020-09-20,5.612243,-0.189562
+BIN_00092,commercial,Osu,660,concrete,1,312,2.32,easy,2016-12-31,5.615586,-0.081829
+BIN_00093,market,Adenta,1100,plastic,0,2427,13.06,easy,2020-01-20,5.638085,-0.252676
+BIN_00094,market,Dansoman,660,plastic,0,3346,9.49,moderate,2018-08-26,5.596168,-0.060989
+BIN_00095,hospitality,Ashaiman,660,metal,1,320,10.57,difficult,2015-12-31,5.544748,-0.0743
+BIN_00096,commercial,Osu,240,plastic,1,750,3.17,easy,2015-05-11,5.532442,-0.279228
+BIN_00097,hospitality,Kasoa,660,metal,1,890,9.64,difficult,2019-03-01,5.549621,-0.101173
+BIN_00098,institutional,La,660,concrete,1,1347,11.83,difficult,2018-07-15,5.555394,0.04593
+BIN_00099,hospitality,Kaneshie,240,plastic,0,586,3.37,easy,2015-12-01,5.631587,-0.181875
+BIN_00100,hospitality,Tema,660,concrete,1,166,7.1,moderate,2016-09-06,5.525921,-0.083231
+BIN_00101,residential,Spintex,120,metal,1,276,6.64,moderate,2021-12-19,5.606144,-0.061654
+BIN_00102,industrial,Accra Central,1100,concrete,1,67,5.35,easy,2017-01-28,5.549676,-0.153292
+BIN_00103,hospitality,Achimota,660,metal,0,381,13.76,moderate,2019-11-07,5.677453,-0.02647
+BIN_00104,commercial,Adenta,660,concrete,1,573,11.56,difficult,2015-05-26,5.557377,-0.266109
+BIN_00105,residential,Airport Residential,120,plastic,1,104,11.61,moderate,2017-07-27,5.614169,0.044169
+BIN_00106,institutional,La,240,plastic,1,1984,5.09,difficult,2018-08-26,5.617238,-0.110813
+BIN_00107,residential,Tema,120,plastic,0,516,10.21,moderate,2016-12-27,5.661406,0.026158
+BIN_00108,hospitality,East Legon,240,plastic,1,558,11.08,easy,2017-02-19,5.555811,-0.102798
+BIN_00109,commercial,Airport Residential,1100,metal,1,292,7.29,easy,2018-09-17,5.525668,-0.171413
+BIN_00110,hospitality,Achimota,240,plastic,1,281,16.68,easy,2016-03-29,5.67394,-0.243875
+BIN_00111,institutional,East Legon,660,metal,1,886,10.42,easy,2020-03-04,5.607005,0.005283
+BIN_00112,industrial,La,1100,concrete,1,266,9.38,moderate,2019-09-13,5.628823,-0.075858
+BIN_00113,industrial,Adenta,1100,plastic,1,269,8.06,moderate,2019-04-24,5.545722,-0.010071
+BIN_00114,institutional,East Legon,240,plastic,1,551,8.04,easy,2016-11-30,5.521452,-0.009836
+BIN_00115,residential,Madina,240,plastic,0,284,8.69,difficult,2017-09-15,5.646209,-0.222661
+BIN_00116,industrial,Teshie-Nungua,1100,concrete,1,234,6.11,moderate,2021-03-07,5.659446,0.041251
+BIN_00117,hospitality,Teshie-Nungua,660,concrete,1,175,10.39,easy,2021-11-11,5.629327,-0.132852
+BIN_00118,residential,East Legon,240,plastic,0,217,10.43,easy,2019-12-29,5.533181,-0.055435
+BIN_00119,market,Achimota,1100,plastic,1,2328,18.91,difficult,2015-03-25,5.583615,-0.189509
+BIN_00120,hospitality,Accra Central,240,plastic,1,288,5.34,moderate,2019-12-15,5.658297,-0.123841
+BIN_00121,hospitality,Airport Residential,240,plastic,1,292,7.77,easy,2015-12-15,5.540999,-0.269266
+BIN_00122,hospitality,Madina,240,plastic,1,622,8.47,easy,2016-06-04,5.552084,-0.117774
+BIN_00123,residential,Kasoa,120,plastic,1,592,9.79,easy,2020-07-06,5.582799,-0.12162
+BIN_00124,market,Achimota,1100,plastic,0,599,13.77,easy,2021-09-14,5.536447,-0.091602
+BIN_00125,residential,Kasoa,120,plastic,1,124,11.92,moderate,2019-11-04,5.5761,-0.269043
+BIN_00126,residential,Kasoa,120,metal,1,452,17.86,easy,2016-03-03,5.536731,-0.069978
+BIN_00127,industrial,Kasoa,1100,concrete,1,149,19.22,difficult,2020-02-27,5.648276,-0.167981
+BIN_00128,institutional,Adenta,660,concrete,1,1610,13.77,easy,2017-05-23,5.590177,-0.040807
+BIN_00129,commercial,Spintex,240,metal,1,980,6.03,easy,2021-06-14,5.625393,-0.115595
+BIN_00130,commercial,Tema,660,metal,1,713,3.73,easy,2016-03-20,5.531552,-0.269885
+BIN_00131,residential,Spintex,120,metal,1,438,8.66,moderate,2017-08-13,5.526417,0.00612
+BIN_00132,commercial,Teshie-Nungua,240,plastic,1,813,10.14,moderate,2017-01-24,5.614776,0.02108
+BIN_00133,residential,East Legon,120,metal,1,287,6.65,easy,2017-07-28,5.579656,-0.110837
+BIN_00134,commercial,Kasoa,660,metal,0,667,14.18,easy,2015-05-10,5.535242,-0.064799
+BIN_00135,residential,Spintex,120,plastic,1,409,4.18,difficult,2021-05-23,5.557768,-0.255746
+BIN_00136,residential,Dansoman,120,plastic,1,335,8.29,difficult,2021-06-18,5.546727,-0.224686
+BIN_00137,residential,Ashaiman,120,plastic,0,573,7.02,difficult,2020-04-09,5.552935,-0.243067
+BIN_00138,residential,Tema,120,plastic,1,427,5.02,easy,2017-12-18,5.570585,-0.112613
+BIN_00139,residential,Dansoman,120,plastic,0,128,5.91,difficult,2018-05-31,5.560676,-0.107829
+BIN_00140,residential,Kasoa,120,plastic,1,458,10.42,moderate,2020-07-26,5.550136,-0.038826
+BIN_00141,residential,Kasoa,240,plastic,0,522,19.34,moderate,2020-12-01,5.559064,-0.005811
+BIN_00142,institutional,Accra Central,240,metal,1,1701,2.08,moderate,2018-08-20,5.624197,-0.244824
+BIN_00143,market,Tema,1100,metal,0,3580,9.77,easy,2016-05-03,5.537458,-0.065331
+BIN_00144,industrial,Teshie-Nungua,1100,plastic,1,299,6.92,moderate,2018-09-29,5.567499,-0.065805
+BIN_00145,residential,Accra Central,120,plastic,0,306,3.24,easy,2021-05-27,5.556363,-0.255845
+BIN_00146,market,Airport Residential,1100,concrete,0,1299,11.56,moderate,2020-05-01,5.524103,-0.167388
+BIN_00147,residential,Tema,120,plastic,1,309,7.94,moderate,2021-08-08,5.672884,-0.273983
+BIN_00148,residential,Adenta,240,plastic,0,361,12.56,easy,2015-05-21,5.57626,-0.246531
+BIN_00149,commercial,Ashaiman,240,plastic,0,946,5.8,moderate,2019-08-09,5.583985,0.042319
+BIN_00150,institutional,Airport Residential,240,plastic,1,801,9.38,easy,2016-03-20,5.56105,0.037766
+BIN_00151,commercial,Adenta,1100,metal,1,289,8.03,moderate,2018-07-24,5.661473,-0.204734
+BIN_00152,residential,Dansoman,120,plastic,0,489,8.01,easy,2019-05-23,5.563969,-0.008537
+BIN_00153,commercial,Dansoman,1100,concrete,1,646,4.38,easy,2018-06-03,5.595663,-0.103332
+BIN_00154,residential,Ashaiman,120,plastic,1,289,6.52,moderate,2017-07-09,5.678046,-0.234975
+BIN_00155,market,Madina,1100,metal,0,647,6.07,moderate,2019-05-23,5.635894,-0.089132
+BIN_00156,residential,Airport Residential,120,plastic,1,182,6.3,easy,2016-12-08,5.590786,-0.005485
+BIN_00157,market,Spintex,660,concrete,0,2127,7.8,easy,2015-12-08,5.627118,0.048066
+BIN_00158,market,Accra Central,1100,metal,1,2341,1.44,difficult,2021-05-23,5.640774,-0.223742
+BIN_00159,commercial,Airport Residential,660,concrete,1,512,10.16,difficult,2015-08-25,5.539173,0.041474
+BIN_00160,residential,Teshie-Nungua,240,plastic,0,370,8.61,easy,2019-11-02,5.65835,-0.079199
+BIN_00161,commercial,Teshie-Nungua,660,metal,1,492,6.24,easy,2020-07-03,5.558249,-0.111791
+BIN_00162,institutional,Airport Residential,240,plastic,1,1298,7.47,difficult,2015-09-01,5.553362,0.027096
+BIN_00163,residential,Tema,120,plastic,1,466,4.27,easy,2015-03-14,5.571604,-0.272445
+BIN_00164,residential,Madina,120,metal,0,514,4.19,difficult,2015-06-13,5.617019,-0.234065
+BIN_00165,institutional,Airport Residential,240,plastic,1,324,6.31,easy,2017-08-21,5.541627,0.037828
+BIN_00166,commercial,Spintex,660,concrete,1,284,8.77,easy,2015-09-11,5.616409,-0.159617
+BIN_00167,residential,Ashaiman,240,plastic,1,746,3.52,moderate,2016-04-01,5.588854,-0.223681
+BIN_00168,residential,Spintex,120,plastic,0,124,7.58,difficult,2020-11-18,5.618435,-0.178936
+BIN_00169,market,Spintex,1100,concrete,0,1511,8.89,easy,2021-01-11,5.586261,-0.006912
+BIN_00170,industrial,Kasoa,1100,metal,1,185,17.48,moderate,2020-03-26,5.60565,-0.208983
+BIN_00171,residential,Tema,120,plastic,1,140,6.34,easy,2021-09-08,5.5927,-0.001362
+BIN_00172,residential,Dansoman,120,metal,1,432,10.3,moderate,2020-05-02,5.593511,-0.020945
+BIN_00173,institutional,Osu,240,plastic,0,1655,1.38,easy,2015-08-30,5.526148,0.017581
+BIN_00174,commercial,Achimota,660,metal,1,381,18.67,easy,2021-11-19,5.536911,0.046131
+BIN_00175,commercial,La,240,plastic,1,257,3.64,easy,2019-07-27,5.601373,-0.152094
+BIN_00176,commercial,Teshie-Nungua,660,concrete,1,417,4.57,easy,2021-07-25,5.652886,-0.257325
+BIN_00177,commercial,Kaneshie,240,metal,1,978,4.12,easy,2017-08-20,5.539422,-0.077046
+BIN_00178,industrial,Osu,1100,metal,1,130,1.63,easy,2017-02-08,5.616301,-0.087801
+BIN_00179,industrial,Spintex,660,metal,1,199,3.86,easy,2017-04-25,5.590305,-0.07773
+BIN_00180,hospitality,Airport Residential,660,concrete,1,76,11.93,easy,2018-05-30,5.657819,-0.00065
+BIN_00181,institutional,Tema,660,metal,0,1856,8.02,easy,2019-10-26,5.548389,-0.100141
+BIN_00182,hospitality,Kasoa,660,concrete,1,695,9.1,difficult,2019-01-26,5.600936,-0.002568
+BIN_00183,industrial,Achimota,1100,concrete,1,76,9.82,easy,2020-11-25,5.621807,-0.02883
+BIN_00184,residential,Dansoman,120,metal,0,543,5.5,easy,2020-01-30,5.648011,-0.212668
+BIN_00185,commercial,Airport Residential,660,metal,1,578,7.99,easy,2015-11-10,5.52565,-0.033908
+BIN_00186,residential,Tema,240,plastic,0,524,7.23,moderate,2016-11-28,5.57893,-0.131958
+BIN_00187,industrial,La,660,metal,1,50,4.61,easy,2019-12-01,5.549011,-0.152068
+BIN_00188,commercial,Adenta,660,concrete,1,663,14.74,moderate,2015-06-11,5.615899,-0.081292
+BIN_00189,residential,Madina,120,plastic,1,280,10.06,moderate,2017-05-17,5.602763,-0.134734
+BIN_00190,residential,Adenta,240,plastic,1,125,17.62,moderate,2017-10-16,5.567911,-0.222752
+BIN_00191,market,Teshie-Nungua,1100,metal,0,3119,6.45,moderate,2017-04-16,5.549516,-0.160462
+BIN_00192,residential,East Legon,240,plastic,1,265,11.37,moderate,2018-12-20,5.656436,-0.205571
+BIN_00193,residential,Ashaiman,120,plastic,0,573,8.68,easy,2017-10-06,5.665502,-0.02253
+BIN_00194,residential,Osu,120,plastic,1,400,4.28,difficult,2018-12-02,5.529129,-0.186878
+BIN_00195,residential,Madina,120,plastic,0,298,6.86,moderate,2016-08-04,5.530459,-0.119102
+BIN_00196,residential,Teshie-Nungua,120,plastic,1,271,9.95,easy,2018-11-23,5.523492,-0.060949
+BIN_00197,hospitality,Kaneshie,660,metal,0,781,4.12,easy,2020-08-30,5.561045,-0.064122
+BIN_00198,residential,La,120,plastic,0,486,4.65,easy,2016-09-20,5.556051,-0.197181
+BIN_00199,institutional,Adenta,660,plastic,1,927,14.51,moderate,2015-06-26,5.606966,-0.253031
+BIN_00200,commercial,Accra Central,660,metal,1,447,1.49,difficult,2016-03-10,5.624156,-0.100007
+BIN_00201,residential,La,120,plastic,0,417,7.48,easy,2021-05-13,5.546353,-0.171029
+BIN_00202,industrial,Kasoa,660,metal,1,108,11.07,difficult,2020-10-06,5.640117,-0.095866
+BIN_00203,commercial,La,660,plastic,1,598,3.95,moderate,2021-08-23,5.580867,-0.024048
+BIN_00204,hospitality,La,240,plastic,1,630,5.49,easy,2017-06-23,5.583355,0.02198
+BIN_00205,commercial,Dansoman,660,concrete,1,828,6.27,difficult,2020-03-13,5.677363,-0.233565
+BIN_00206,residential,La,240,plastic,1,276,8.54,easy,2019-03-28,5.638357,-0.17451
+BIN_00207,hospitality,East Legon,660,concrete,1,151,10.94,easy,2015-09-04,5.540772,-0.053336
+BIN_00208,residential,Teshie-Nungua,240,metal,1,471,4.69,difficult,2018-10-27,5.666913,-0.243453
+BIN_00209,industrial,Osu,1100,plastic,1,139,3.47,moderate,2016-04-20,5.60407,-0.199368
+BIN_00210,residential,Dansoman,120,plastic,1,287,7.05,moderate,2021-05-15,5.619349,-0.163716
+BIN_00211,institutional,Achimota,660,metal,1,1530,9.28,easy,2021-04-14,5.531143,-0.222289
+BIN_00212,institutional,Spintex,660,metal,1,812,10.8,easy,2020-12-30,5.554023,-0.269048
+BIN_00213,residential,Airport Residential,240,metal,1,296,3.53,moderate,2018-02-12,5.665151,-0.058658
+BIN_00214,commercial,Achimota,660,metal,1,505,9.55,easy,2020-08-08,5.537715,-0.140559
+BIN_00215,residential,La,120,metal,1,383,11.75,moderate,2018-07-22,5.648785,-0.274058
+BIN_00216,hospitality,Kaneshie,660,concrete,1,653,3.25,easy,2018-12-31,5.606512,-0.248144
+BIN_00217,residential,Accra Central,120,plastic,1,262,2.5,moderate,2019-09-28,5.530319,0.009489
+BIN_00218,institutional,East Legon,660,plastic,1,239,5.16,moderate,2019-08-21,5.588669,-0.191634
+BIN_00219,industrial,Ashaiman,1100,metal,1,299,4.03,easy,2020-04-12,5.627072,-0.006335
+BIN_00220,institutional,Accra Central,240,plastic,1,2207,3.32,easy,2016-10-20,5.662804,-0.133685
+BIN_00221,market,Madina,1100,concrete,0,2629,4.19,easy,2020-10-24,5.598027,-0.064766
+BIN_00222,hospitality,Tema,660,plastic,1,461,11.02,easy,2017-02-18,5.616651,0.019435
+BIN_00223,residential,Dansoman,240,plastic,1,214,8.5,easy,2020-01-22,5.614539,-0.102788
+BIN_00224,institutional,Accra Central,240,plastic,1,971,5.01,moderate,2015-11-14,5.583487,-0.265352
+BIN_00225,residential,La,120,plastic,1,238,7.57,difficult,2016-02-01,5.628067,-0.265198
+BIN_00226,commercial,Kaneshie,240,plastic,1,634,5.54,moderate,2021-10-28,5.5695,-0.008149
+BIN_00227,hospitality,Dansoman,660,plastic,1,722,10.47,easy,2020-02-19,5.629854,-0.242219
+BIN_00228,residential,Kaneshie,120,plastic,1,383,5.5,easy,2020-09-19,5.670676,-0.059371
+BIN_00229,market,Tema,1100,concrete,0,1016,4.04,easy,2017-02-09,5.635836,-0.240216
+BIN_00230,institutional,Kasoa,660,plastic,1,1740,14.39,easy,2020-06-21,5.526998,-0.239409
+BIN_00231,commercial,Kaneshie,660,plastic,1,611,5.26,easy,2016-01-10,5.606805,0.004375
+BIN_00232,commercial,Spintex,660,plastic,0,933,6.88,easy,2020-08-03,5.579208,-0.270951
+BIN_00233,residential,La,120,plastic,1,157,11.01,easy,2019-12-16,5.524072,-0.066879
+BIN_00234,market,Achimota,660,concrete,0,753,18.17,moderate,2019-01-03,5.678086,-0.130179
+BIN_00235,market,East Legon,1100,metal,0,1280,4.22,easy,2020-07-30,5.668102,-0.14333
+BIN_00236,residential,Kasoa,240,plastic,1,552,9.39,difficult,2019-09-28,5.679177,-0.100024
+BIN_00237,residential,Achimota,240,plastic,1,236,14.5,easy,2021-06-10,5.605161,-0.224449
+BIN_00238,residential,Adenta,120,plastic,1,177,8.69,easy,2017-09-30,5.557606,-0.005873
+BIN_00239,commercial,Accra Central,660,metal,1,841,3.44,easy,2021-05-09,5.637532,-0.180839
+BIN_00240,residential,La,120,plastic,1,115,7.28,moderate,2020-08-08,5.674245,0.02012
+BIN_00241,industrial,East Legon,1100,metal,1,131,3.52,easy,2020-05-14,5.660334,0.031534
+BIN_00242,residential,Madina,120,plastic,0,356,5.72,easy,2019-05-30,5.552516,-0.028607
+BIN_00243,residential,Achimota,240,plastic,0,457,13.47,easy,2019-09-07,5.642324,-0.090735
+BIN_00244,hospitality,Kaneshie,240,metal,1,831,5.47,easy,2018-09-08,5.591731,-0.111557
+BIN_00245,market,Kaneshie,1100,concrete,0,691,5.36,moderate,2021-06-25,5.567903,-0.161624
+BIN_00246,institutional,La,660,concrete,1,1982,4.81,difficult,2016-06-25,5.52229,-0.036503
+BIN_00247,institutional,Accra Central,240,plastic,0,2015,5.05,difficult,2016-06-30,5.618177,-0.25076
+BIN_00248,commercial,Airport Residential,240,plastic,1,311,7.94,easy,2020-07-08,5.531571,0.035188
+BIN_00249,commercial,Tema,240,plastic,1,918,3.45,easy,2017-11-02,5.626697,-0.210333
+BIN_00250,institutional,Madina,660,plastic,1,2197,5.89,easy,2021-06-26,5.607837,-0.20764
+BIN_00251,residential,Madina,120,plastic,1,546,7.53,easy,2019-01-19,5.608745,-0.06976
+BIN_00252,commercial,Tema,660,plastic,0,770,7.68,easy,2019-02-03,5.635305,-0.147523
+BIN_00253,residential,Tema,120,plastic,1,479,5.86,easy,2020-02-28,5.527496,-0.188864
+BIN_00254,industrial,Adenta,1100,metal,1,285,8.99,difficult,2016-09-24,5.577637,-0.19077
+BIN_00255,institutional,Spintex,660,plastic,0,960,6.4,difficult,2021-09-14,5.629923,-0.117041
+BIN_00256,residential,Achimota,240,plastic,1,201,18.51,easy,2016-06-06,5.672124,-0.048162
+BIN_00257,residential,Ashaiman,120,plastic,0,212,7.49,moderate,2017-10-20,5.589237,-0.128959
+BIN_00258,residential,Airport Residential,240,plastic,0,122,7.97,easy,2016-10-10,5.625177,-0.124147
+BIN_00259,institutional,Accra Central,660,concrete,1,1092,5.65,easy,2017-11-17,5.675935,-0.262774
+BIN_00260,market,Kasoa,660,plastic,1,1703,8.7,easy,2019-08-01,5.607009,-0.247044
+BIN_00261,market,East Legon,660,metal,1,567,6.72,easy,2020-11-28,5.572839,0.019002
+BIN_00262,residential,East Legon,120,metal,1,259,5.81,moderate,2021-11-17,5.603407,0.042085
+BIN_00263,residential,Ashaiman,120,plastic,1,259,6.92,moderate,2016-10-26,5.643703,-0.109073
+BIN_00264,residential,Airport Residential,120,plastic,0,223,10.91,easy,2021-01-16,5.66377,-0.021545
+BIN_00265,industrial,La,660,metal,1,227,11.44,moderate,2018-01-07,5.529555,-0.058358
+BIN_00266,commercial,La,1100,concrete,0,635,11.66,easy,2015-08-21,5.552797,-0.040543
+BIN_00267,market,Osu,1100,concrete,0,867,5.06,moderate,2017-10-03,5.546221,-0.06787
+BIN_00268,institutional,Kaneshie,660,metal,1,2162,4.54,easy,2019-11-12,5.668897,-0.115887
+BIN_00269,residential,La,120,metal,1,196,7.51,moderate,2021-11-05,5.619345,0.026458
+BIN_00270,industrial,Airport Residential,1100,metal,1,64,7.01,easy,2016-09-11,5.654984,0.043794
+BIN_00271,industrial,Achimota,1100,concrete,1,209,13.98,easy,2021-10-29,5.611126,-0.194351
+BIN_00272,commercial,Madina,240,plastic,1,253,10.46,moderate,2020-12-12,5.670992,0.036845
+BIN_00273,commercial,Tema,1100,metal,0,982,5.79,easy,2017-11-28,5.645016,0.036855
+BIN_00274,industrial,East Legon,1100,metal,1,97,11.34,easy,2021-01-27,5.527369,-0.013334
+BIN_00275,residential,Adenta,240,plastic,1,111,13.77,moderate,2015-01-10,5.664221,-0.229244
+BIN_00276,hospitality,Tema,660,metal,0,432,6.53,moderate,2015-10-01,5.678791,-0.152513
+BIN_00277,commercial,Tema,660,metal,1,1121,3.92,moderate,2017-11-30,5.526229,-0.268114
+BIN_00278,residential,Tema,120,plastic,1,465,8.07,easy,2021-05-18,5.654346,-0.232541
+BIN_00279,commercial,Adenta,1100,plastic,1,824,13.72,easy,2015-08-09,5.560849,-0.182421
+BIN_00280,commercial,Airport Residential,240,plastic,1,666,7.56,easy,2015-02-09,5.527623,-0.040173
+BIN_00281,industrial,La,1100,metal,1,184,5.54,easy,2016-08-03,5.582692,-0.099589
+BIN_00282,commercial,East Legon,660,concrete,1,684,5.04,easy,2015-07-31,5.556867,-0.279514
+BIN_00283,industrial,Spintex,1100,concrete,1,153,9.83,moderate,2017-05-18,5.634019,-0.010463
+BIN_00284,residential,Airport Residential,120,metal,1,131,9.86,easy,2020-06-14,5.625762,-0.25411
+BIN_00285,commercial,Dansoman,240,plastic,1,498,8.66,easy,2019-05-03,5.56745,-0.04424
+BIN_00286,industrial,Kasoa,1100,concrete,1,351,13.39,easy,2020-03-29,5.648563,-0.23973
+BIN_00287,residential,East Legon,240,plastic,0,124,6.11,easy,2018-08-24,5.545172,-0.240771
+BIN_00288,industrial,Kaneshie,1100,concrete,1,204,3.53,easy,2020-04-21,5.52257,-0.021883
+BIN_00289,residential,Airport Residential,240,metal,1,135,9.34,moderate,2017-09-19,5.674726,-0.262949
+BIN_00290,commercial,Achimota,660,metal,0,771,19.43,easy,2019-01-21,5.649406,-0.05654
+BIN_00291,market,Tema,1100,concrete,0,1351,8.62,moderate,2016-08-17,5.620479,-0.198322
+BIN_00292,residential,Accra Central,120,plastic,1,289,4.11,easy,2020-05-01,5.584724,-0.257443
+BIN_00293,industrial,Airport Residential,660,metal,1,47,4.85,easy,2021-05-25,5.622678,-0.058412
+BIN_00294,market,Airport Residential,1100,concrete,0,2083,5.93,difficult,2015-12-27,5.676859,-0.257724
+BIN_00295,commercial,Accra Central,240,plastic,0,773,1.95,moderate,2020-05-22,5.575444,-0.148788
+BIN_00296,residential,Dansoman,120,plastic,0,383,9.21,easy,2015-08-07,5.532093,0.03397
+BIN_00297,residential,Kasoa,120,plastic,1,385,15.7,moderate,2018-03-03,5.560143,-0.056911
+BIN_00298,industrial,Kasoa,1100,metal,1,319,19.36,easy,2021-05-02,5.617961,-0.209682
+BIN_00299,hospitality,Ashaiman,240,plastic,1,864,6.67,easy,2017-12-27,5.669803,-0.101143
+BIN_00300,hospitality,Dansoman,240,metal,1,684,11.79,easy,2016-01-05,5.638852,-0.172075
+BIN_00301,institutional,Ashaiman,660,metal,1,1472,9.51,easy,2018-06-25,5.556668,-0.099531
+BIN_00302,market,Tema,1100,metal,1,3232,9.65,easy,2019-05-18,5.576955,-0.274782
+BIN_00303,residential,Tema,120,plastic,0,411,9.06,easy,2018-08-20,5.573286,0.012038
+BIN_00304,residential,Teshie-Nungua,240,plastic,1,416,9.69,moderate,2019-12-05,5.530953,-0.157533
+BIN_00305,hospitality,Kasoa,660,metal,0,888,18.32,easy,2016-03-20,5.659796,-0.069475
+BIN_00306,institutional,La,240,plastic,0,315,10.42,easy,2018-03-08,5.615815,-0.213637
+BIN_00307,commercial,Adenta,240,plastic,0,284,17.17,easy,2019-11-13,5.585404,0.024929
+BIN_00308,residential,East Legon,120,plastic,0,316,10.33,easy,2017-03-13,5.648935,-0.277372
+BIN_00309,hospitality,Achimota,660,concrete,1,347,17.94,moderate,2018-08-27,5.55457,-0.012923
+BIN_00310,industrial,Airport Residential,1100,concrete,0,188,3.92,easy,2020-11-26,5.600501,-0.216025
+BIN_00311,institutional,Dansoman,660,metal,1,1135,3.12,easy,2019-08-28,5.585775,-0.041763
+BIN_00312,residential,Adenta,120,plastic,0,312,17.47,easy,2017-01-27,5.533369,-0.273687
+BIN_00313,residential,Dansoman,240,plastic,0,399,4.07,easy,2021-03-03,5.546709,-0.199569
+BIN_00314,residential,Kasoa,120,metal,0,387,12.99,easy,2015-01-19,5.628637,-0.144085
+BIN_00315,industrial,East Legon,1100,metal,1,145,7.79,easy,2018-12-27,5.599313,0.027932
+BIN_00316,commercial,La,660,metal,1,916,4.84,moderate,2017-03-31,5.644238,-0.078259
+BIN_00317,institutional,Achimota,240,plastic,1,1439,11.04,easy,2018-01-01,5.605705,-0.004081
+BIN_00318,institutional,Osu,240,plastic,1,1012,1.92,difficult,2016-03-04,5.597495,-0.275589
+BIN_00319,commercial,Osu,1100,plastic,1,253,5.39,easy,2021-02-10,5.638893,-0.000184
+BIN_00320,commercial,Accra Central,240,plastic,0,656,5.99,moderate,2021-06-28,5.555218,-0.164328
+BIN_00321,residential,Achimota,240,plastic,1,118,12.2,difficult,2017-06-16,5.625869,-0.120284
+BIN_00322,residential,Spintex,120,plastic,1,332,6.83,moderate,2020-01-28,5.64848,-0.109057
+BIN_00323,residential,Ashaiman,120,plastic,1,547,6.12,moderate,2021-09-14,5.561317,-0.080214
+BIN_00324,commercial,Dansoman,1100,concrete,1,390,7.27,moderate,2015-02-23,5.581794,-0.085793
+BIN_00325,residential,East Legon,120,plastic,0,211,4.69,easy,2021-09-09,5.591017,-0.131244
+BIN_00326,hospitality,Accra Central,240,plastic,1,908,4.18,easy,2020-07-08,5.550548,-0.050768
+BIN_00327,residential,Teshie-Nungua,240,plastic,0,514,7.15,difficult,2020-06-30,5.534142,-0.049347
+BIN_00328,residential,Spintex,120,plastic,1,266,11.0,moderate,2020-01-12,5.626696,-0.173401
+BIN_00329,institutional,Achimota,660,concrete,1,1400,9.13,moderate,2018-04-20,5.633094,0.039197
+BIN_00330,institutional,Spintex,240,plastic,1,1744,11.98,easy,2021-04-19,5.570897,0.037183
+BIN_00331,institutional,Ashaiman,660,concrete,1,2066,5.09,easy,2021-11-14,5.666657,-0.046968
+BIN_00332,residential,Adenta,240,plastic,1,349,18.37,moderate,2015-03-09,5.678509,-0.030279
+BIN_00333,commercial,Dansoman,240,plastic,1,1073,6.41,easy,2018-08-31,5.595086,-0.13379
+BIN_00334,commercial,Kasoa,1100,concrete,1,291,13.46,moderate,2019-05-10,5.658183,-0.243679
+BIN_00335,hospitality,Spintex,660,concrete,1,554,5.48,easy,2021-02-18,5.548697,-0.047304
+BIN_00336,commercial,Kaneshie,660,plastic,1,897,1.12,easy,2015-07-26,5.654105,-0.015072
+BIN_00337,hospitality,Madina,660,plastic,0,610,10.5,moderate,2019-05-30,5.614854,-0.162875
+BIN_00338,residential,La,120,plastic,0,346,5.22,moderate,2019-11-06,5.553797,0.004789
+BIN_00339,institutional,Achimota,660,metal,1,1995,8.36,difficult,2019-11-10,5.616486,-0.075733
+BIN_00340,hospitality,Ashaiman,240,plastic,1,1174,10.35,difficult,2017-07-13,5.533617,-0.152753
+BIN_00341,residential,Spintex,120,plastic,1,476,3.67,easy,2020-08-02,5.674842,-0.134886
+BIN_00342,residential,La,120,plastic,1,108,10.44,easy,2016-09-28,5.568397,0.041873
+BIN_00343,residential,Teshie-Nungua,120,plastic,0,194,3.74,easy,2015-01-11,5.610145,-0.014744
+BIN_00344,residential,Kasoa,240,plastic,1,121,10.09,difficult,2017-09-17,5.583313,-0.043988
+BIN_00345,residential,Tema,120,plastic,1,440,9.99,difficult,2018-07-18,5.527194,-0.238302
+BIN_00346,commercial,Osu,1100,metal,1,576,4.28,moderate,2018-05-19,5.625293,-0.241386
+BIN_00347,industrial,Adenta,1100,metal,1,275,18.68,moderate,2018-11-14,5.610836,-0.088826
+BIN_00348,commercial,Kaneshie,660,plastic,0,951,2.4,easy,2020-12-07,5.549643,-0.188048
+BIN_00349,residential,East Legon,120,metal,0,231,8.03,easy,2020-08-15,5.579928,-0.016748
+BIN_00350,residential,Achimota,120,plastic,1,235,19.86,easy,2021-05-23,5.554913,0.008444
+BIN_00351,residential,Kasoa,240,plastic,0,145,12.52,easy,2016-04-25,5.608694,-0.214163
+BIN_00352,residential,La,240,plastic,1,183,5.14,difficult,2019-03-01,5.643603,-0.048179
+BIN_00353,market,Kasoa,1100,concrete,0,2908,12.77,moderate,2018-04-09,5.524874,-0.212532
+BIN_00354,residential,La,120,plastic,1,409,4.11,moderate,2016-02-21,5.656477,0.026367
+BIN_00355,hospitality,Spintex,240,plastic,1,134,9.52,easy,2017-08-10,5.550262,0.024381
+BIN_00356,market,Achimota,1100,metal,0,813,17.27,easy,2017-01-02,5.657039,-0.004428
+BIN_00357,hospitality,Kasoa,240,plastic,0,560,17.3,easy,2020-12-26,5.566803,-0.170372
+BIN_00358,residential,La,240,plastic,0,371,5.86,moderate,2015-10-20,5.661577,-0.036108
+BIN_00359,residential,Achimota,120,plastic,0,317,12.16,easy,2020-10-31,5.569901,-0.167809
+BIN_00360,residential,Achimota,240,plastic,0,316,19.82,difficult,2021-08-14,5.668581,-0.259603
+BIN_00361,residential,La,120,plastic,0,278,7.51,easy,2018-01-01,5.640188,-0.031224
+BIN_00362,commercial,Madina,240,plastic,0,992,7.16,difficult,2019-09-07,5.584385,0.011914
+BIN_00363,institutional,Adenta,240,plastic,1,992,16.76,difficult,2015-05-29,5.588793,-0.005787
+BIN_00364,residential,Airport Residential,120,plastic,0,335,4.23,moderate,2017-09-10,5.538653,-0.09959
+BIN_00365,institutional,Spintex,660,concrete,0,1677,8.1,moderate,2020-06-09,5.585737,-0.095009
+BIN_00366,hospitality,La,660,plastic,1,503,7.18,easy,2018-06-14,5.613613,-0.205329
+BIN_00367,institutional,Tema,660,metal,1,1389,3.93,easy,2017-06-09,5.639706,-0.094786
+BIN_00368,residential,Spintex,240,plastic,0,272,6.13,easy,2019-05-07,5.52436,-0.107216
+BIN_00369,residential,Ashaiman,120,plastic,1,365,10.41,difficult,2016-11-08,5.663341,-0.018003
+BIN_00370,residential,Accra Central,120,plastic,1,344,3.41,moderate,2021-08-10,5.549228,-0.233932
+BIN_00371,commercial,East Legon,660,metal,1,662,4.07,difficult,2016-02-11,5.605052,-0.269223
+BIN_00372,commercial,Teshie-Nungua,240,plastic,1,558,11.35,moderate,2021-08-28,5.558263,-0.110941
+BIN_00373,industrial,Kaneshie,1100,metal,1,225,3.02,moderate,2020-03-10,5.571144,-0.135402
+BIN_00374,institutional,Tema,240,plastic,1,1699,8.92,easy,2019-11-10,5.566081,-0.096412
+BIN_00375,residential,Airport Residential,120,plastic,1,268,3.86,easy,2015-06-20,5.561975,-0.176693
+BIN_00376,institutional,Adenta,660,plastic,1,1333,12.84,moderate,2016-10-19,5.526888,-0.022282
+BIN_00377,residential,Tema,240,plastic,0,379,10.6,easy,2020-08-15,5.560187,-0.00141
+BIN_00378,commercial,Osu,660,concrete,1,231,2.36,easy,2018-11-25,5.631471,-0.172966
+BIN_00379,residential,Madina,120,plastic,0,574,6.6,moderate,2017-02-17,5.592705,-0.022538
+BIN_00380,hospitality,Spintex,660,concrete,1,756,4.63,moderate,2017-12-28,5.569155,-0.099669
+BIN_00381,commercial,Spintex,240,plastic,1,837,9.52,moderate,2016-08-28,5.536039,-0.274524
+BIN_00382,market,Teshie-Nungua,660,metal,1,3090,11.53,easy,2019-01-11,5.564783,-0.188353
+BIN_00383,residential,Tema,120,plastic,1,308,3.26,moderate,2021-04-28,5.645058,-0.176477
+BIN_00384,residential,Dansoman,120,plastic,0,381,5.48,moderate,2020-10-20,5.664679,-0.156342
+BIN_00385,commercial,La,240,plastic,1,377,5.86,easy,2016-06-03,5.668864,-0.248531
+BIN_00386,commercial,East Legon,660,metal,1,325,8.97,moderate,2018-11-05,5.590737,-0.169648
+BIN_00387,residential,Airport Residential,120,plastic,1,152,11.2,easy,2021-05-17,5.562908,-0.160845
+BIN_00388,commercial,Tema,240,plastic,1,909,4.74,moderate,2021-03-18,5.575171,-0.168687
+BIN_00389,residential,Osu,120,plastic,1,368,5.13,moderate,2016-01-23,5.536895,-0.265053
+BIN_00390,market,Achimota,660,concrete,1,703,19.91,easy,2020-12-22,5.538765,-0.22421
+BIN_00391,residential,Madina,120,metal,1,344,8.57,easy,2015-05-10,5.619004,-0.060429
+BIN_00392,commercial,Airport Residential,240,plastic,1,212,3.9,easy,2015-11-02,5.560573,-0.124586
+BIN_00393,commercial,Accra Central,660,concrete,1,818,3.56,easy,2017-03-28,5.627814,-0.000527
+BIN_00394,residential,Dansoman,240,metal,0,122,3.01,easy,2018-01-24,5.556204,-0.051523
+BIN_00395,residential,East Legon,120,plastic,1,252,4.91,easy,2021-08-07,5.538151,0.04898
+BIN_00396,residential,Osu,240,plastic,1,105,1.41,easy,2017-02-26,5.597234,-0.02344
+BIN_00397,market,Teshie-Nungua,660,metal,0,3495,3.45,difficult,2020-12-12,5.523949,-0.160291
+BIN_00398,commercial,Ashaiman,660,metal,0,787,4.29,difficult,2018-12-14,5.636294,-0.021026
+BIN_00399,hospitality,La,660,concrete,1,762,5.66,easy,2015-05-03,5.533067,0.025015
+BIN_00400,residential,Madina,120,plastic,0,275,8.99,moderate,2019-10-01,5.540203,-0.011567
+BIN_00401,hospitality,Kasoa,660,concrete,1,457,16.75,moderate,2017-04-26,5.662592,-0.275501
+BIN_00402,residential,Spintex,120,plastic,1,440,11.62,moderate,2015-11-22,5.649961,-0.153266
+BIN_00403,market,Ashaiman,660,metal,1,1930,3.87,easy,2016-07-19,5.591057,-0.104482
+BIN_00404,institutional,Madina,660,metal,1,1269,5.86,easy,2017-05-01,5.629151,-0.175971
+BIN_00405,residential,Madina,240,plastic,1,394,5.31,moderate,2015-08-31,5.599993,-0.039018
+BIN_00406,market,East Legon,1100,concrete,1,1211,10.17,easy,2020-07-28,5.608168,-0.107224
+BIN_00407,residential,Adenta,120,plastic,1,122,9.27,moderate,2021-10-22,5.557399,-0.069535
+BIN_00408,institutional,Kasoa,660,metal,1,1532,15.84,easy,2018-06-09,5.607164,-0.235223
+BIN_00409,institutional,Adenta,660,metal,1,1463,14.68,easy,2019-07-11,5.604754,-0.038312
+BIN_00410,hospitality,East Legon,660,concrete,1,401,6.56,moderate,2016-01-01,5.569158,-0.157892
+BIN_00411,commercial,East Legon,240,plastic,0,351,3.56,easy,2021-07-09,5.529777,-0.11523
+BIN_00412,residential,Airport Residential,120,plastic,1,317,6.73,easy,2019-05-02,5.618629,-0.129044
+BIN_00413,residential,Adenta,120,plastic,1,179,10.17,easy,2019-02-28,5.613078,-0.147518
+BIN_00414,residential,Accra Central,120,plastic,1,417,4.49,easy,2020-10-19,5.615237,0.007731
+BIN_00415,commercial,East Legon,240,plastic,1,519,8.33,easy,2018-03-25,5.567412,-0.232655
+BIN_00416,residential,Achimota,120,plastic,1,227,13.64,moderate,2018-07-25,5.596294,-0.072069
+BIN_00417,institutional,Tema,240,plastic,1,937,11.89,easy,2021-09-03,5.635531,-0.266706
+BIN_00418,commercial,Ashaiman,660,plastic,1,1374,4.34,difficult,2017-05-11,5.523531,0.044232
+BIN_00419,residential,Adenta,120,plastic,1,344,8.29,easy,2015-10-01,5.615914,0.017793
+BIN_00420,residential,Ashaiman,240,metal,1,414,4.79,easy,2018-01-26,5.647965,-0.096953
+BIN_00421,institutional,Kasoa,240,plastic,1,774,18.4,easy,2015-08-12,5.555278,-0.073535
+BIN_00422,commercial,East Legon,1100,plastic,1,298,10.54,easy,2017-06-08,5.532817,-0.134195
+BIN_00423,residential,Madina,240,plastic,1,304,10.69,difficult,2017-06-22,5.563299,-0.215926
+BIN_00424,commercial,Madina,240,plastic,1,783,10.9,moderate,2017-10-13,5.666807,-0.023322
+BIN_00425,institutional,Kasoa,660,concrete,1,2283,18.11,easy,2015-11-02,5.547182,-0.238108
+BIN_00426,residential,Airport Residential,120,plastic,0,261,11.54,easy,2018-03-10,5.534583,-0.185653
+BIN_00427,market,Kaneshie,1100,concrete,0,2068,3.08,easy,2021-12-03,5.523555,0.046218
+BIN_00428,residential,Dansoman,120,plastic,1,308,5.13,easy,2018-02-15,5.618805,-0.211431
+BIN_00429,commercial,East Legon,660,plastic,1,297,6.15,moderate,2015-02-04,5.571988,-0.053192
+BIN_00430,hospitality,East Legon,240,plastic,1,549,4.63,moderate,2020-02-17,5.649675,-0.190025
+BIN_00431,industrial,Accra Central,1100,plastic,1,77,4.46,easy,2019-02-15,5.593543,-0.056999
+BIN_00432,market,Spintex,1100,metal,0,1490,4.2,easy,2021-03-11,5.660736,0.019324
+BIN_00433,hospitality,Accra Central,240,plastic,1,708,3.95,difficult,2020-02-22,5.559008,-0.063552
+BIN_00434,residential,Achimota,120,plastic,0,110,12.26,moderate,2021-07-15,5.631894,-0.170915
+BIN_00435,industrial,Osu,1100,concrete,1,172,1.67,easy,2019-06-16,5.615888,-0.110476
+BIN_00436,residential,Tema,120,metal,1,163,5.87,easy,2017-02-09,5.547905,-0.124356
+BIN_00437,residential,Tema,240,plastic,1,241,8.78,easy,2016-05-22,5.539471,-0.085929
+BIN_00438,residential,East Legon,240,plastic,0,325,8.15,easy,2020-02-15,5.551783,-0.198537
+BIN_00439,residential,East Legon,120,plastic,1,302,4.6,moderate,2017-10-30,5.602892,-0.209382
+BIN_00440,residential,Teshie-Nungua,120,plastic,1,534,5.78,easy,2015-09-29,5.573245,-0.096056
+BIN_00441,industrial,Ashaiman,1100,concrete,1,424,11.97,difficult,2018-01-23,5.541268,-0.069299
+BIN_00442,residential,Osu,120,plastic,0,109,2.05,easy,2016-07-02,5.558251,-0.029847
+BIN_00443,industrial,Tema,1100,plastic,1,301,3.75,easy,2015-06-28,5.661806,-0.230048
+BIN_00444,residential,Teshie-Nungua,120,plastic,0,470,8.18,easy,2019-05-25,5.578714,-0.231415
+BIN_00445,residential,Teshie-Nungua,240,plastic,1,249,4.79,moderate,2021-03-13,5.652034,-0.017631
+BIN_00446,residential,Madina,240,plastic,0,300,6.05,easy,2015-04-21,5.562786,-0.011911
+BIN_00447,residential,Teshie-Nungua,120,plastic,0,538,10.07,easy,2016-06-01,5.630452,0.031858
+BIN_00448,market,Osu,660,concrete,1,1108,2.53,easy,2018-01-03,5.657827,-0.234691
+BIN_00449,hospitality,Ashaiman,660,metal,0,1064,5.6,difficult,2018-09-12,5.54107,-0.047337
+BIN_00450,industrial,La,1100,concrete,1,126,10.74,difficult,2016-04-08,5.655856,-0.153479
+BIN_00451,residential,Achimota,120,plastic,1,331,11.69,easy,2018-11-13,5.676999,0.027721
+BIN_00452,hospitality,Madina,660,concrete,1,424,10.91,moderate,2020-02-17,5.585244,0.012506
+BIN_00453,residential,Kasoa,120,metal,1,453,15.56,difficult,2017-09-10,5.676414,-0.087733
+BIN_00454,hospitality,Teshie-Nungua,660,plastic,1,420,6.1,moderate,2021-12-24,5.594015,-0.269022
+BIN_00455,residential,Osu,120,metal,1,129,4.32,moderate,2015-12-06,5.587551,-0.020929
+BIN_00456,residential,Tema,120,plastic,1,243,9.77,moderate,2019-02-14,5.639418,-0.177181
+BIN_00457,institutional,Ashaiman,660,metal,1,851,6.77,easy,2015-09-22,5.608612,-0.110717
+BIN_00458,residential,Tema,120,plastic,1,467,11.36,easy,2015-08-04,5.569232,-0.200082
+BIN_00459,residential,Achimota,120,plastic,1,114,19.93,easy,2019-06-11,5.640042,-0.189413
+BIN_00460,market,La,1100,metal,0,2188,7.58,difficult,2017-07-07,5.627454,-0.269532
+BIN_00461,commercial,Teshie-Nungua,1100,metal,0,964,5.24,moderate,2021-12-16,5.583783,0.004764
+BIN_00462,residential,Dansoman,120,plastic,1,232,10.37,easy,2020-06-30,5.530984,0.047323
+BIN_00463,hospitality,Accra Central,240,plastic,1,586,2.46,easy,2021-05-22,5.590184,0.042574
+BIN_00464,institutional,Madina,240,plastic,0,370,5.68,easy,2016-02-02,5.627843,-0.001376
+BIN_00465,institutional,Madina,660,metal,1,2204,4.71,moderate,2020-05-10,5.5475,-0.122746
+BIN_00466,industrial,Spintex,1100,metal,1,78,10.53,moderate,2016-06-18,5.676927,-0.080044
+BIN_00467,commercial,Tema,660,metal,1,393,9.22,easy,2015-05-05,5.591552,-0.006159
+BIN_00468,market,Osu,1100,metal,0,718,2.89,easy,2018-07-26,5.672131,-0.210734
+BIN_00469,residential,Achimota,120,plastic,1,256,19.37,easy,2019-05-10,5.652664,-0.112313
+BIN_00470,market,Airport Residential,1100,concrete,0,1458,7.05,easy,2020-09-10,5.63145,0.024944
+BIN_00471,institutional,East Legon,240,plastic,1,327,8.37,moderate,2020-12-13,5.558694,-0.139421
+BIN_00472,hospitality,Kaneshie,240,plastic,1,704,2.81,moderate,2019-10-11,5.550906,-0.124468
+BIN_00473,commercial,Kaneshie,240,metal,1,896,1.13,moderate,2017-09-19,5.656585,-0.040655
+BIN_00474,residential,Ashaiman,120,plastic,1,328,3.81,difficult,2018-10-07,5.597418,-0.239328
+BIN_00475,residential,Accra Central,120,plastic,1,463,2.2,easy,2017-07-13,5.608639,-0.103595
+BIN_00476,residential,Teshie-Nungua,240,plastic,1,484,6.05,difficult,2018-11-28,5.6133,-0.088941
+BIN_00477,residential,East Legon,120,plastic,1,278,11.27,easy,2015-06-03,5.56188,-0.074001
+BIN_00478,institutional,Madina,240,metal,1,1886,10.31,easy,2020-03-13,5.647408,-0.005131
+BIN_00479,hospitality,Teshie-Nungua,660,concrete,1,796,10.61,easy,2018-02-15,5.627801,-0.131384
+BIN_00480,industrial,Spintex,1100,metal,1,104,4.02,moderate,2016-06-21,5.524299,-0.154441
+BIN_00481,residential,Teshie-Nungua,240,metal,1,348,11.08,moderate,2019-10-18,5.628908,-0.059979
+BIN_00482,commercial,Teshie-Nungua,240,plastic,1,560,6.49,easy,2020-12-17,5.544503,-0.039722
+BIN_00483,market,Spintex,1100,plastic,0,1273,11.43,moderate,2020-06-19,5.663584,-0.240604
+BIN_00484,residential,Achimota,120,plastic,1,322,15.01,easy,2021-08-01,5.644288,-0.000309
+BIN_00485,residential,Madina,120,plastic,1,424,4.77,easy,2016-02-09,5.639683,-0.003945
+BIN_00486,industrial,Dansoman,1100,metal,0,275,11.37,moderate,2016-06-29,5.528452,-0.040392
+BIN_00487,residential,Airport Residential,240,plastic,1,118,9.37,moderate,2021-02-22,5.539857,-0.239933
+BIN_00488,industrial,Kasoa,660,concrete,1,240,13.88,moderate,2019-08-02,5.541819,-0.039756
+BIN_00489,institutional,La,660,metal,1,1740,9.75,moderate,2021-04-02,5.57552,0.027846
+BIN_00490,hospitality,Adenta,240,plastic,0,703,11.79,difficult,2019-01-09,5.52192,-0.097571
+BIN_00491,industrial,La,1100,concrete,1,94,5.53,easy,2017-03-11,5.588664,-0.255284
+BIN_00492,residential,Spintex,120,plastic,1,407,3.56,moderate,2017-04-22,5.64671,-0.147239
+BIN_00493,commercial,Adenta,240,plastic,1,875,11.15,easy,2016-08-18,5.591853,-0.089388
+BIN_00494,commercial,Airport Residential,660,concrete,0,269,6.64,difficult,2015-07-13,5.675212,0.005473
+BIN_00495,market,La,1100,plastic,0,1225,4.81,easy,2019-10-10,5.570886,0.025132
+BIN_00496,residential,La,120,plastic,1,125,5.86,easy,2018-06-27,5.640283,0.019057
+BIN_00497,industrial,Tema,1100,concrete,1,264,11.39,moderate,2020-08-25,5.525634,-0.033761
+BIN_00498,institutional,Kaneshie,660,concrete,0,1586,1.66,easy,2018-10-17,5.596212,-0.058981
+BIN_00499,commercial,Madina,660,metal,1,695,5.03,moderate,2016-02-25,5.679282,-0.131409
+BIN_00500,residential,Accra Central,240,plastic,1,217,4.85,easy,2021-07-11,5.649371,-0.175091

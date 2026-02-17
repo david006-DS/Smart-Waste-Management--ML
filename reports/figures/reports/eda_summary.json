@@ -1,0 +1,28 @@
+{
+  "dataset": {
+    "rows": 107949,
+    "columns": 48,
+    "bins": 500
+  },
+  "fill_level": {
+    "mean": 35.07,
+    "median": 29.7
+  },
+  "class_distribution": {
+    "low": 54845,
+    "medium": 41950,
+    "high": 7950,
+    "critical": 3204
+  },
+  "top_correlations": {
+    "fill_rate_per_day": 0.875,
+    "fill_rate_7day_avg": 0.847,
+    "prev_fill_level": 0.669,
+    "capacity_liters": 0.487,
+    "nearby_population": 0.32
+  },
+  "incidents": {
+    "overflow_rate": 0.84,
+    "odor_rate": 1.36
+  }
+}
